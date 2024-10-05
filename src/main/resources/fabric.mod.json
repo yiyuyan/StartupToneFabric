@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "stf",
+  "version": "${version}",
+  "name": "StartupToneFabric",
+  "description": "",
+  "authors": [
+    "KSmc_brigade"
+  ],
+  "contact": {
+    "repo": "https://github.com/yiyuyan/StartupToneFabric"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "cn.ksmcbrigade.stf.StartupToneFabric"
+    ]
+  },
+  "mixins": [
+    "stf.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
